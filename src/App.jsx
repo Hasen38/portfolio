@@ -3,12 +3,10 @@ import React from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-
-// import Projects from "./components/Project";
 import "./index.css";
 import Footer from "./components/Footer";
 import "./App.css";
-import Contact from "./components/projects";
+import Project from "./components/Projects";
 import Hitup from "./components/Hitup";
 function App() {
   return (
@@ -16,9 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-
-      {/* <Projects /> */}
-      <Projects />
+      <Project />
       <Hitup />
       <Footer />
     </div>
