@@ -8,7 +8,7 @@ import About from "./components/About";
 import "./index.css";
 import Footer from "./components/Footer";
 import "./App.css";
-import Contact from "./components/Contact";
+import Contact from "./components/projects";
 import Hitup from "./components/Hitup";
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <About />
 
       {/* <Projects /> */}
-      <Contact />
+      <Projects />
       <Hitup />
       <Footer />
     </div>

@@ -30,7 +30,7 @@ const Projects = () => {
       ],
 
       github: "https://github.com/hasen38/ethio-travel",
-      live: "https://your-ecommerce.com",
+      // live: "https://your-ecommerce.com",
     },
     {
       title: "Pharmacy Inventory Management System",
@@ -46,8 +46,8 @@ const Projects = () => {
         { icon: <SiMysql />, name: "MySQL" },
         { icon: <SiFilament />, name: "Filament" },
       ],
-      github: "https://github.com/yourusername/dashboard",
-      live: "https://your-dashboard.com",
+      github: "https://github.com/hasen38/Pharmacy-inventory-system",
+      // live: "https://your-dashboard.com",
     },
     {
       title: "Blog App",
@@ -65,8 +65,8 @@ const Projects = () => {
         { icon: <SiTailwindcss />, name: "Tailwind" },
         { icon: <SiMysql />, name: "MySQL" },
       ],
-      github: "https://github.com/yourusername/task-app",
-      live: "https://your-taskapp.com",
+      github: "https://github.com/hasen38/LaraBlog",
+      // live: "https://your-taskapp.com",
     },
   ];
 
@@ -136,15 +136,15 @@ const Projects = () => {
                     <FaGithub className="text-xl" />
                     <span>View Code</span>
                   </a>
-                  <a
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 px-6 py-3 text-white transition-all bg-gray-700 rounded-full hover:bg-purple-600"
-                  >
-                    <FaExternalLinkAlt className="text-xl" />
+                  > */}
+                    {/* <FaExternalLinkAlt className="text-xl" />
                     <span>Live Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
